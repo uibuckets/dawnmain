@@ -489,16 +489,16 @@
   height: auto ;
 }
 
-.dynamic__banner__media__auto:not(.placeholder){
+.dynamic__banner--adapt .dynamic__banner__media__auto:not(.placeholder){
   height: auto !important;
 }
 
-.dynamic__banner__media__auto picture{
+.dynamic__banner--adapt .dynamic__banner__media__auto picture{
   position: relative !important ;
   height: auto  !important;
 }
 
-.dynamic__banner__media__auto img{
+.dynamic__banner--adapt .dynamic__banner__media__auto img{
   position: relative;
   height: auto ;
 }
