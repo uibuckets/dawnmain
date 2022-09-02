@@ -1,4 +1,3 @@
- 
 {{ 'dynamic-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
@@ -34,7 +33,7 @@
 
    
     <div class="dynamic__banner__media media dynamic__banner__media__auto {% if section.settings.image == blank or section.settings.image_mobile == blank %} placeholder{% endif %}">
-        {%- if section.settings.image != blank and section.settings.image_mobile != blank -%}
+        {%- if section.settings.image != blank or section.settings.image_mobile != blank -%}
 
       <picture>
         <source media="(min-width: 750px)"   srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
