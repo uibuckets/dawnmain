@@ -3,6 +3,8 @@
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-list-social.css' | asset_url }}" media="print" onload="this.media='all'">
+
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -518,7 +520,7 @@
 
     <div class="header__icons">
       {%- if section.settings.show_social -%}
-        <ul class="footer__list-social list-unstyled list-social social_header"  data-breakpoint="tablet" role="list">
+        <ul class="footer__list-social list-unstyled list-social" role="list">
           {%- if settings.social_twitter_link != blank -%}
             <li class="list-social__item">
               <a href="{{ settings.social_twitter_link }}" class="link list-social__link" >
