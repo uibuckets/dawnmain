@@ -164,7 +164,7 @@
     "16621404650130f9f9": {
       "type": "marquee",
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "marquee": "this is sample marque text to looop tomse default content just for the demo"
       }
     },
