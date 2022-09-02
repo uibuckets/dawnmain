@@ -1,0 +1,600 @@
+
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'image-count-down-timer.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
+  {%- style -%}
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }}::before,
+    #Banner-{{ section.id }} .banner__media::before,
+    #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
+      padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+      content: '';
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    #Banner-{{ section.id }}::before,
+    #Banner-{{ section.id }} .banner__media::before {
+      padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
+      content: '';
+      display: block;
+    }
+  }
+  {%- endstyle -%}
+{%- endif -%}
+
+{%- style -%}
+  #Banner-{{ section.id }}::after {
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+
+  #BannerTextContainerBG{
+    display:block !important;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity: {{ section.settings.text_overlay_opacity | divided_by: 100.0 }};
+  }
+
+  {%- if section.settings.text_overlay_background == false -%}
+    #BannerTextContainer{
+      background:transparent !important;
+    }    
+    
+    
+  {%- endif -%}
+
+  .banner_box_content_gs a{
+      cursor:default;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .banner__box .sw__hero__countdown__dates{
+      padding: 3px 8px;
+      font-size: 18px;
+      width:28px;
+    }
+  }
+
+ 
+{%- endstyle -%}
+<a  class="{% if section.settings.image_link %} slideshow_link_a{% endif %}" {% if section.settings.image_link %} href="{{ section.settings.image_link }}"{% else %} role="link" aria-disabled="true"{% endif %}  > 
+<div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }} {% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+
+   
+  {%- if section.settings.image != blank -%}
+    <div class="banner__media__cursor banner__media media banner__media__auto">
+      <picture>
+        <source media="(min-width: 750px)"   srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+          {%- if section.settings.image.width >= 550 -%}{{ section.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+          {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%} 
+          {{ section.settings.image | image_url }} {{ section.settings.image.width }}w" >
+          
+      
+        <img srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image_mobile | image_url: width: 375 }} 375w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 550 -%}{{ section.settings.image_mobile | image_url: width: 550 }} 550w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 750 -%}{{ section.settings.image_mobile | image_url: width: 750 }} 750w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 1100 -%}{{ section.settings.image_mobile | image_url: width: 1100 }} 1100w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 1500 -%}{{ section.settings.image_mobile | image_url: width: 1500 }} 1500w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 1780 -%}{{ section.settings.image_mobile | image_url: width: 1780 }} 1780w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 2000 -%}{{ section.settings.image_mobile | image_url: width: 2000 }} 2000w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 3000 -%}{{ section.settings.image_mobile | image_url: width: 3000 }} 3000w,{%- endif -%}
+        {%- if section.settings.image_mobile.width >= 3840 -%}{{ section.settings.image_mobile | image_url: width: 3840 }} 3840w,{%- endif -%}
+        {{ section.settings.image_mobile | image_url }} {{ section.settings.image_mobile.width }}w"
+          sizes="100vw"
+          src="{{ section.settings.image | image_url: width: 1500 }}"
+          loading="lazy"
+          alt="{{ section.settings.image.alt | escape }}"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio | round }}"
+        >  
+     </picture>
+  </div>
+  {%- endif -%}
+
+  <div  class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width banner__content_conutdown">
+    <div  id="BannerTextContainer" class="banner_box_content_gs banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient ">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.heading | escape }}</span>
+            </h2>
+          {%- when 'text' -%}
+            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.text | escape }}</span>
+            </div>
+          {%- when 'countdown' -%}
+            <div class="sw__hero" id="gs-image-banner-timer-bar" data-value="{{ block.settings.countdown_date }}">
+                <div class="sw__hero__content">
+                    <div class="sw__hero__countdown">
+                        <div class="sw__hero__countdown__wrapper" style="display: inline-block">
+                            <div style="display: flex">
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-days1"></p>
+                                    </div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-days2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="sw__hero__countdown__date_label">Days</p>
+                        </div>
+                        <div class="sw__hero__countdown__wrapper" style="display: inline-block">
+                            <div style="display: flex">
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-hours1"></p>
+                                    </div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-hours2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="sw__hero__countdown__date_label">Hours</p>
+
+                        </div>
+                        <div class="sw__hero__countdown__wrapper" style="display: inline-block">
+                            <div style="display: flex">
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-minutes1"></p>
+                                    </div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-minutes2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="sw__hero__countdown__date_label">Minutes</p>
+
+                        </div>
+                        <div class="sw__hero__countdown__wrapper" style="display: inline-block">
+                            <div style="display: flex">
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-seconds1"></p>
+                                    </div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="sw__hero__countdown__date_container links  ">
+                                        <p class="sw__hero__countdown__dates" id="gs-image-banner-timer-seconds2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="sw__hero__countdown__date_label">Seconds</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          {%- when 'buttons' -%}
+            <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="banner__media__cursor button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="banner__media__cursor button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
+              {%- endif -%}
+
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+
+</div>
+</a>
+
+<script>
+  // Set the date we're counting down to
+  // Update the count down every 1 second
+  var countdowntimer = setInterval(function () {
+      // Get today's date and time
+      var timerData = document.getElementById("gs-image-banner-timer-bar").dataset;
+      var counterCountDownDate = new Date(timerData.value).getTime();
+      var countdownNow = new Date().getTime();
+      // Find the distance between countdownNow and the count down date
+      var countdownDistance = counterCountDownDate - countdownNow;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(countdownDistance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((countdownDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((countdownDistance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((countdownDistance % (1000 * 60)) / 1000);
+
+      function prependZero(number) {
+          if (number <= 9)
+              if (number < 0) {
+                  return "00";
+              } else {
+                  return "0" + number;
+              }
+          else return number;
+      }
+
+      days = prependZero(days);
+      hours = prependZero(hours);
+      minutes = prependZero(minutes);
+      seconds = prependZero(seconds);
+
+      // Display the result in the element with id="demo"
+      console.log(document.getElementById("gs-image-banner-timer-days1"))
+
+      document.getElementById("gs-image-banner-timer-days1").innerHTML = days.toString().slice(0, 1);
+
+      document.getElementById("gs-image-banner-timer-days2").innerHTML = days.toString().slice(1, 2);
+
+      document.getElementById("gs-image-banner-timer-hours1").innerHTML = hours.toString().slice(0, 1);
+
+      document.getElementById("gs-image-banner-timer-hours2").innerHTML = hours.toString().slice(1, 2);
+
+      document.getElementById("gs-image-banner-timer-minutes1").innerHTML = minutes.toString().slice(0, 1);
+      document.getElementById("gs-image-banner-timer-minutes2").innerHTML = minutes.toString().slice(1, 2);
+
+      document.getElementById("gs-image-banner-timer-seconds1").innerHTML = seconds.toString().slice(0, 1);
+      document.getElementById("gs-image-banner-timer-seconds2").innerHTML = seconds.toString().slice(1, 2);
+
+      // If the count down is finished, write some text
+      if (countdownDistance < 0) {
+          clearInterval(countdowntimer);
+      }
+  }, 1000);
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.countdown-timer.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label"
+    },
+     {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+      "default": 0
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-banner.settings.image_height.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-banner.settings.image_height.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-banner.settings.image_height.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-banner.settings.image_height.label",
+      "info": "t:sections.image-banner.settings.image_height.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "adapt_height_first_image",
+      "default": false,
+      "label": "t:sections.image-banner.settings.adapt_height_first_image.label",
+      "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "Image Link"
+    },
+    
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "top-center",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "top-right",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__3.label"
+        },
+        {
+          "value": "middle-left",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__4.label"
+        },
+        {
+          "value": "middle-center",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__5.label"
+        },
+        {
+          "value": "middle-right",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__6.label"
+        },
+        {
+          "value": "bottom-left",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__7.label"
+        },
+        {
+          "value": "bottom-center",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__8.label"
+        },
+        {
+          "value": "bottom-right",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__9.label"
+        }
+      ],
+      "default": "middle-center",
+      "label": "t:sections.image-banner.settings.desktop_content_position.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_box",
+      "default": true,
+      "label": "t:sections.image-banner.settings.show_text_box.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-banner.settings.desktop_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-banner.settings.desktop_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label",
+      "info": "t:sections.image-banner.settings.color_scheme.info"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image-banner.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-banner.settings.mobile_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-banner.settings.mobile_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-banner.settings.mobile_content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.image-banner.settings.mobile_content_alignment.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_images_on_mobile",
+      "default": true,
+      "label": "t:sections.image-banner.settings.stack_images_on_mobile.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_below",
+      "default": true,
+      "label": "t:sections.image-banner.settings.show_text_below.label"
+    },{
+      "type": "checkbox",
+      "id": "text_overlay_background",
+      "default": true,
+      "label": "Text Container Background"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    }
+    ,{
+      "type": "countdown",
+      "name": "Countdown",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "countdown_date",
+          "default": "11/21/2022 10:00:00",
+          "label": "Enter date",
+          "info":"Please enter date in 11/21/2022 10:00:00(mm/dd/yyyy hh:mm:ss) format"}
+      ]
+    },
+
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "caption-with-letter-spacing",
+              "label": "t:sections.image-banner.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.countdown-timer.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+ 

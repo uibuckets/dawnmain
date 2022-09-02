@@ -1,0 +1,532 @@
+.dynamic__banner {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.dynamic__banner__box {
+  text-align: center;
+}
+
+@media only screen and (max-width: 749px) {
+  .dynamic__banner--content-align-mobile-right .dynamic__banner__box {
+    text-align: right;
+  }
+
+  .dynamic__banner--content-align-mobile-left .dynamic__banner__box {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .dynamic__banner--content-align-right .dynamic__banner__box {
+    text-align: right;
+  }
+
+  .dynamic__banner--content-align-left .dynamic__banner__box {
+    text-align: left;
+  }
+
+  .dynamic__banner--content-align-left.dynamic__banner--desktop-transparent .dynamic__banner__box,
+  .dynamic__banner--content-align-right.dynamic__banner--desktop-transparent .dynamic__banner__box,
+  .dynamic__banner--medium.dynamic__banner--desktop-transparent .dynamic__banner__box {
+    max-width: 68rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--small.dynamic__banner--mobile-bottom:not(.dynamic__banner--adapt) .dynamic__banner__media,
+  .dynamic__banner--small.dynamic__banner--stacked:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt) > .dynamic__banner__media {
+    height: 28rem;
+  }
+
+  .dynamic__banner--medium.dynamic__banner--mobile-bottom:not(.dynamic__banner--adapt) .dynamic__banner__media,
+  .dynamic__banner--medium.dynamic__banner--stacked:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt) > .dynamic__banner__media {
+    height: 34rem;
+  }
+
+  .dynamic__banner--large.dynamic__banner--mobile-bottom:not(.dynamic__banner--adapt) .dynamic__banner__media,
+  .dynamic__banner--large.dynamic__banner--stacked:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt) > .dynamic__banner__media {
+    height: 39rem;
+  }
+
+  .dynamic__banner--small:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt) .dynamic__banner__content {
+    min-height: 28rem;
+  }
+
+  .dynamic__banner--medium:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt) .dynamic__banner__content {
+    min-height: 34rem;
+  }
+
+  .dynamic__banner--large:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt) .dynamic__banner__content {
+    min-height: 39rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner {
+    flex-direction: row;
+  }
+
+  .dynamic__banner--small:not(.dynamic__banner--adapt) {
+    min-height: 42rem;
+  }
+
+  .dynamic__banner--medium:not(.dynamic__banner--adapt) {
+    min-height: 56rem;
+  }
+
+  .dynamic__banner--large:not(.dynamic__banner--adapt) {
+    min-height: 72rem;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--top-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--top-center {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--top-right {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--middle-left {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--middle-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--middle-right {
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--bottom-left {
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--bottom-center {
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .dynamic__banner__content.dynamic__banner__content--bottom-right {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner:not(.dynamic__banner--stacked) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .dynamic__banner--stacked {
+    height: auto;
+  }
+
+  .dynamic__banner--stacked .dynamic__banner__media {
+    flex-direction: column;
+  }
+}
+
+.dynamic__banner__media {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+ 
+
+.dynamic__banner__media-half {
+  width: 50%;
+}
+
+.dynamic__banner__media-half + .dynamic__banner__media-half {
+  right: 0;
+  left: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--stacked .dynamic__banner__media-half {
+    width: 100%;
+  }
+
+  .dynamic__banner--stacked .dynamic__banner__media-half + .dynamic__banner__media-half {
+    order: 1;
+  }
+
+  .dynamic__banner__media__auto .placeholder{
+    height: 32rem !important;
+  }
+
+  .placeholder{
+    height: 32rem !important;
+  }
+
+  .placeholder-svg{
+    height: 32rem !important;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner__media {
+    height: 100%;
+  }
+}
+
+
+
+.dynamic__banner--adapt,
+.dynamic__banner--adapt_image.dynamic__banner--mobile-bottom .dynamic__banner__media:not(.placeholder) {
+  height: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--mobile-bottom .dynamic__banner__media,
+  .dynamic__banner--stacked:not(.dynamic__banner--mobile-bottom) .dynamic__banner__media {
+    position: relative;
+  }
+
+  .dynamic__banner--stacked.dynamic__banner--adapt .dynamic__banner__content {
+    height: auto;
+  }
+
+  .dynamic__banner:not(.dynamic__banner--mobile-bottom):not(.email-signup-dynamic__banner) .dynamic__banner__box {
+    background: transparent;
+    --color-foreground: 255, 255, 255;
+    --color-button: 255, 255, 255;
+    --color-button-text: 0, 0, 0;
+  }
+
+  .dynamic__banner:not(.dynamic__banner--mobile-bottom) .dynamic__banner__box {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .dynamic__banner:not(.dynamic__banner--mobile-bottom) .button--secondary {
+    --color-button: 255, 255, 255;
+    --color-button-text: 255, 255, 255;
+    --alpha-button-background: 0;
+  }
+
+  .dynamic__banner--stacked:not(.dynamic__banner--mobile-bottom):not(.dynamic__banner--adapt)
+    .dynamic__banner__content {
+    position: absolute;
+    height: auto;
+  }
+
+  .dynamic__banner--stacked.dynamic__banner--adapt:not(.dynamic__banner--mobile-bottom) .dynamic__banner__content {
+    max-height: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .dynamic__banner--stacked:not(.dynamic__banner--adapt) .dynamic__banner__media {
+    position: relative;
+  }
+
+  .dynamic__banner::before {
+    display: none !important;
+  }
+
+  .dynamic__banner--stacked .dynamic__banner__media-image-half {
+    width: 100%;
+  }
+}
+
+.dynamic__banner__content {
+  padding: 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner__content {
+    padding: 5rem;
+  }
+
+  .dynamic__banner__content--top-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .dynamic__banner__content--top-center {
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .dynamic__banner__content--top-right {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .dynamic__banner__content--middle-left {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .dynamic__banner__content--middle-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dynamic__banner__content--middle-right {
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .dynamic__banner__content--bottom-left {
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .dynamic__banner__content--bottom-center {
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .dynamic__banner__content--bottom-right {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--mobile-bottom:not(.dynamic__banner--stacked) .dynamic__banner__content {
+    order: 2;
+  }
+
+  .dynamic__banner:not(.dynamic__banner--mobile-bottom) .field__input {
+    background-color: transparent;
+  }
+}
+
+.dynamic__banner__box {
+  padding: 4rem 3.5rem;
+  position: relative;
+  height: fit-content;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner--desktop-transparent .dynamic__banner__box {
+    background: transparent;
+    --color-foreground: 255, 255, 255;
+    --color-button: 255, 255, 255;
+    --color-button-text: 0, 0, 0;
+    max-width: 89rem;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .dynamic__banner--desktop-transparent .button--secondary {
+    --color-button: 255, 255, 255;
+    --color-button-text: 255, 255, 255;
+    --alpha-button-background: 0;
+  }
+
+  .dynamic__banner--desktop-transparent .content-container:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--mobile-bottom::after,
+  .dynamic__banner--mobile-bottom .dynamic__banner__media::after {
+    display: none;
+  }
+}
+
+.dynamic__banner::after,
+.dynamic__banner__media::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  background: #000000;
+  opacity: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.dynamic__banner__box > * + .dynamic__banner__text {
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner__box > * + .dynamic__banner__text {
+    margin-top: 2rem;
+  }
+}
+
+.dynamic__banner__box > * + * {
+  margin-top: 1rem;
+}
+
+.dynamic__banner__box > *:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--stacked .dynamic__banner__box {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner__box {
+    width: auto;
+    max-width: 71rem;
+    min-width: 45rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .dynamic__banner__box {
+    max-width: 90rem;
+  }
+}
+
+.dynamic__banner__heading {
+  margin-bottom: 0;
+}
+
+.dynamic__banner__box .dynamic__banner__heading + * {
+  margin-top: 1rem;
+}
+
+.dynamic__banner__buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 45rem;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 749px) {
+  .dynamic__banner--content-align-mobile-right .dynamic__banner__buttons--multiple {
+    justify-content: flex-end;
+  }
+
+  .dynamic__banner--content-align-mobile-center .dynamic__banner__buttons--multiple > * {
+    flex-grow: 1;
+    min-width: 22rem;
+  }
+}
+
+
+
+@media screen and (min-width: 750px) {
+  .dynamic__banner--content-align-center .dynamic__banner__buttons--multiple > * {
+    flex-grow: 1;
+    min-width: 22rem;
+  }
+
+  .dynamic__banner--content-align-right .dynamic__banner__buttons--multiple {
+    justify-content: flex-end;
+  }
+  
+ 
+}
+
+.dynamic__banner__box > * + .dynamic__banner__buttons {
+  margin-top: 2rem;
+}
+
+/* Gs - Banner Update - Start */
+.slideshow__slide_image_link{
+  z-index: 2;
+}
+
+.slideshow__slide_text_diabled{
+  pointer-events: none;
+  display: none;
+}
+
+.slideshow__slide_image_link img, .slideshow__slide_image_link picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dynamic__banner__media img, .dynamic__banner__media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideshow__control_hidden{
+  display: none !important;
+}
+
+.slider__slide_height{
+  height: auto ;
+}
+
+.dynamic__banner__media__auto:not(.placeholder){
+  height: auto !important;
+}
+
+.dynamic__banner__media__auto picture{
+  position: relative !important ;
+  height: auto  !important;
+}
+
+.dynamic__banner__media__auto img{
+  position: relative;
+  height: auto ;
+}
+
+.slideshow__media picture{
+  position: relative !important;
+}
+/* Gs - Banner Update - End */
+
+
+
+@media screen and (min-width: 750px) {
+  
+.slideshow__media picture{
+  position: absolute !important;
+}
+
+.dynamic__banner__media__auto{
+  height: 100% !important;
+}
+
+.dynamic__banner__media__auto picture{
+  position: absolute !important;
+  height: 100% !important;
+}
+
+.dynamic__banner__media__auto img{
+  position: absolute !important;
+  height: 100% !important;
+}
+}

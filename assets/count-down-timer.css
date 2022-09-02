@@ -1,0 +1,133 @@
+ 
+[data-aos="show"] {
+    opacity: 0;
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+        -ms-transform: matrix(1, 0, 0, 1, 0, 0);
+            transform: matrix(1, 0, 0, 1, 0, 0);
+}
+[data-aos="show"].aos-animate {
+    opacity: 1;
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+        -ms-transform: matrix(1, 0, 0, 1, 0, 0);
+            transform: matrix(1, 0, 0, 1, 0, 0);
+}
+ 
+.sw__hero {
+  flex-direction: column;
+    position: relative;
+    /* top: 35px; */
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-right: 10px;
+    margin-left: 6px;
+    height: 100%;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    will-change: transform;
+    -webkit-transition: .6s all ease-in-out;
+    -o-transition: .6s all ease-in-out;
+    transition: .6s all ease-in-out;
+ }
+
+  
+.wrap {
+    text-align: center;
+    position: relative;
+  }
+    
+.sw__hero__countdown{
+    display: flex;
+    align-items: center;
+}
+.sw__hero__countdown__wrapper{
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    position: relative;
+    animation: showHeroText 0s 1.2s forwards;
+    visibility: hidden; 
+}
+
+.sw_span_colon{
+    margin-left: 4px;
+    padding-left: 4px;
+
+}
+  
+ 
+
+.sw__hero__countdown__date_container{
+    background-color: rgba(var(--color-foreground),0.3);
+    border-radius: 4px;
+    margin-left: 6px;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+} 
+
+.sw__hero__countdown__dates{
+    margin: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: rgb(var(--color-foreground));
+    line-height: normal;
+    vertical-align: middle;
+}
+.sw__hero__content{
+    padding-top: 1px;
+}
+
+.banner__box .sw__hero{
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.banner__box .sw__hero__countdown__dates{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 48px;
+}
+
+.sw__hero__countdown__date_label{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@-webkit-keyframes showHeroText {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes showHeroText {
+    to   { visibility: visible; }
+}
