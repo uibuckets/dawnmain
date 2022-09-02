@@ -494,13 +494,13 @@
 }
 
 .dynamic__banner--adapt .dynamic__banner__media__auto picture{
-  position: relative !important ;
+  /* position: relative !important ; */
   height: auto  !important;
 }
 
 .dynamic__banner--adapt .dynamic__banner__media__auto img{
-  position: relative;
-  height: auto ;
+  position: relative !important;
+  height: auto !important;
 }
 
 .slideshow__media picture{
