@@ -272,6 +272,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16621409324e631b47": {
+      "type": "image-countdown-timer",
+      "blocks": {
+        "1662140932b7f06560-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "1662140932b7f06560-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "1662140932b7f06560-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "b82727db-db01-4007-907b-e418b3c2a8fc": {
+          "type": "countdown",
+          "settings": {
+            "countdown_date": "11\/21\/2022 10:00:00"
+          }
+        }
+      },
+      "block_order": [
+        "1662140932b7f06560-0",
+        "1662140932b7f06560-1",
+        "1662140932b7f06560-2",
+        "b82727db-db01-4007-907b-e418b3c2a8fc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/b1d.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "image_link": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "text_overlay_background": true
+      }
     }
   },
   "order": [
@@ -282,6 +339,7 @@
     "16621404650130f9f9",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "16621409324e631b47"
   ]
 }
