@@ -144,8 +144,8 @@
         "settings": {
           "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/Pink_O_Pink-1_2_9e684b32-3901-4c6b-816b-b45d38052426.png",
-          "logo_width": 200,
-          "logo_position": "middle-center",
+          "logo_width": 80,
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "show_social": true,
           "menu_type_desktop": "mega",
