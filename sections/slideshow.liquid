@@ -110,7 +110,7 @@
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }}
           {% if block.settings.slide_image_link %}
-          </a>
+            </a>
           {%- endif -%}  
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -347,11 +347,11 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
-        },,{
+        },{
           "type": "url",
           "id": "slide_image_link",
           "label": "Image Link"
-        }
+        },
         {
           "type": "checkbox",
           "id": "button_style_secondary",
