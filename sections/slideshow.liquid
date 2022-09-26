@@ -102,13 +102,26 @@
             {% if block.settings.slide_image_link %}
               <a href="{{ block.settings.slide_image_link }}" class="slide_link_a">
             {%- endif -%}  
-            {%- assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round -%}
+
+    <img src="{{ block.settings.image | image_url: width: 480 }}" alt="{{ image.alt | escape }}"
+        srcset="
+        {% if image.width > 640 %}{{ block.settings.image | image_url: '640x' }} 640w{% endif %}
+        {% if image.width > 720 %},{{ block.settings.image | image_url: '720x' }} 720w{% endif %}
+        {% if image.width > 900 %},{{ block.settings.image | image_url: '900x' }} 900w{% endif %} 
+        " 
+        sizes="(min-width: 960px) 450px, (min-width: 720px) 50vw, 100vw"
+        height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round }}"
+        loading= 'lazy'
+        width= '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+    />
+
+            {% comment %} {%- assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round -%}
             {{ block.settings.image | image_url: width: 3840 | image_tag:
               loading: 'lazy',
               height: height,
               sizes: "100vw",
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-            }}
+            }} {% endcomment %}
           {% if block.settings.slide_image_link %}
             </a>
           {%- endif -%}  
