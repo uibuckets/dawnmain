@@ -103,9 +103,9 @@
               <a href="{{ block.settings.slide_image_link }}" class="slide_link_a">
             {%- endif -%}  
 
-    <img src="{{ "https://cdn.shopify.com/s/files/1/0663/0742/4506/files/2.png" | image_url: width: 480 }}" alt="{{ image.alt | escape }}"
+    <img src="{{ block.settings.image | image_url: width: 480 }}" alt="{{ image.alt | escape }}"
         srcset="
-        {% if image.width > 640 %}{{ "https://cdn.shopify.com/s/files/1/0663/0742/4506/files/2_73e4eb6e-aef0-446e-a40e-ca7b8425a874.png" | image_url: '640x' }} 640w{% endif %}
+        {% if image.width > 640 %}{{ block.settings.image | image_url: '640x' }} 640w{% endif %}
         {% if image.width > 720 %},{{ "https://images.pexels.com/photos/936575/pexels-photo-936575.jpeg?cs=srgb&dl=pexels-mentatdgt-936575.jpg&fm=jpg" | image_url: '720x' }} 720w{% endif %}
         {% if image.width > 900 %},{{ "https://images.pexels.com/photos/11622796/pexels-photo-11622796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" | image_url: '900x' }} 900w{% endif %} 
         " 
