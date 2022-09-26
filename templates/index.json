@@ -50,7 +50,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
         "show_slideshow_control": false,
         "auto_rotate": false,
