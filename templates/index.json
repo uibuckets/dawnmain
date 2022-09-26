@@ -6,8 +6,10 @@
         "16621408751ff849a9-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "image_mobile": "shopify:\/\/shop_images\/1_32615636-a0cd-4703-b8d0-0a3132200953.png",
             "heading": "",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "slide_image_link": "",
