@@ -99,7 +99,9 @@
       >
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
           {%- if block.settings.image -%}
-            <a href="https://www.google.com" class="slide_link_a">
+            {% if block.settings.slide_image_link %}
+              <a href="{{ block.settings.slide_image_link }}" class="slide_link_a">
+            {%- endif -%}  
             {%- assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round -%}
             {{ block.settings.image | image_url: width: 3840 | image_tag:
               loading: 'lazy',
@@ -107,7 +109,9 @@
               sizes: "100vw",
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }}
+          {% if block.settings.slide_image_link %}
           </a>
+          {%- endif -%}  
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
@@ -343,7 +347,11 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
-        },
+        },,{
+          "type": "url",
+          "id": "slide_image_link",
+          "label": "Image Link"
+        }
         {
           "type": "checkbox",
           "id": "button_style_secondary",
