@@ -11,7 +11,7 @@
   
   .marquee-words {
     white-space: nowrap;
-    animation: marquee-keywords 25s linear infinite;
+    animation: marquee-keywords 65s linear infinite;
     font-size: 18px;
     letter-spacing: 0.2em;
   }
