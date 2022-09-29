@@ -100,7 +100,7 @@
           <a href="{{ block.settings.slide_image_link }}" class="slideshow__slide_image_link">
         {%- endif -%}  
           <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
-            {%- if block.settings.image -%}
+            {%- if block.settings.image or block.settings.image_mobile != blank -%}
                
                 {% comment %} <img
                 srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
