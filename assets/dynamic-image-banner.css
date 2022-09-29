@@ -530,10 +530,7 @@
   height: 100% !important;
 }
 
-.dynamic__banner--adapt .dynamic__banner__media__auto picture{
-  position: relative !important ;
-  height: auto  !important;
-}
+
 
 
 }
