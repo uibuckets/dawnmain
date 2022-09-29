@@ -105,8 +105,8 @@
 
     <img src="{{ block.settings.image | image_url: width: 480 }}" alt="{{ image.alt | escape }}"
         srcset="
-        {% if image.width > 640 %}{{ "//cdn.shopify.com/s/files/1/0663/0742/4506/files/1.png?v=1664203184&width=480" | image_url: '640x' }} 640w{% endif %}
-        {% if image.width > 720 %},{{ "https://images.pexels.com/photos/936575/pexels-photo-936575.jpeg?cs=srgb&dl=pexels-mentatdgt-936575.jpg&fm=jpg" | image_url: '720x' }} 720w{% endif %}
+        {% if image.width > 640 %}{{ block.settings.image | image_url: '640x' }} 640w{% endif %}
+        {% if image.width > 720 %},{{ block.settings.image | image_url: '720x' }} 720w{% endif %}
         {% if image.width > 900 %},{{ block.settings.image | image_url: '900x' }} 900w{% endif %} 
         " 
         sizes="(min-width: 960px) 450px, (min-width: 720px) 50vw, 100vw"
