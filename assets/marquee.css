@@ -15,6 +15,7 @@
 .marquee-words{
   padding-top:3px;
   padding-bottom:3px;
+  margin:0px;
 }
 
 @keyframes marquee {
