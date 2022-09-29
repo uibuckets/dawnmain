@@ -134,7 +134,7 @@
         "image_mobile": "shopify:\/\/shop_images\/2_73e4eb6e-aef0-446e-a40e-ca7b8425a874.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "image_link": "",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
