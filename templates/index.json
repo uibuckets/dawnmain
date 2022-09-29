@@ -27,6 +27,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/1.png",
+            "image_mobile": "shopify:\/\/shop_images\/2_73e4eb6e-aef0-446e-a40e-ca7b8425a874.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
