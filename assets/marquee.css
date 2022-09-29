@@ -12,6 +12,11 @@
   animation: marquee 10s linear infinite;
 } 
 
+.marquee-words{
+  padding-top:3px;
+  padding-bottom:3px;
+}
+
 @keyframes marquee {
   0% {
   transform: translateX(0);
