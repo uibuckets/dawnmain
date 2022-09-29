@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ 'marquee.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="marquee-container color-{{ section.settings.color_scheme }}">
-  <div class="marquee">
+  <div class="marquee marquee-container--hover-pause">
     <div class="marquee-words">{{ section.settings.marquee }}&nbsp;</div>
   </div>
 </div>

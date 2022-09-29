@@ -1,26 +1,41 @@
 .marquee-container {
-    overflow: hidden;
+    position: relative;
+  width: 100vw;
+  max-width:100%;
+  overflow-x: hidden;
   }
   
   .marquee {
-    margin: 0;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+     white-space: nowrap;
+    will-change: transform;
+    animation: marquee 10s linear infinite;
   }
   
   .marquee-words {
     white-space: nowrap;
-    animation: marquee-keywords 65s linear infinite;
-    font-size: 18px;
+     font-size: 18px;
     letter-spacing: 0.2em;
   }
   
-  @keyframes marquee-keywords {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+  
+@keyframes marquee {
+  0% {
+  transform: translateX(0);
   }
+  100% {
+  transform: translateX(-50%);
+  }
+}
+
+/* Pause animation when reduced-motion is set */
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation-play-state: paused !important;
+  }
+}
+
+/* Pause on hover */
+.marquee-container--hover-pause:hover .marquee {
+  animation-play-state: paused;
+}
+  
