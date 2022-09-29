@@ -1,25 +1,17 @@
-.marquee-container {
-    position: relative;
+.marquee {
+  position: relative;
   width: 100vw;
   max-width:100%;
   overflow-x: hidden;
-  }
-  
-  .marquee {
-     white-space: nowrap;
-    will-change: transform;
-    animation: marquee 10s linear infinite;
-  }
-  
-  .marquee-words {
-    white-space: nowrap;
-     font-size: 18px;
-    letter-spacing: 0.2em;
-    padding-top:4px;
-    padding-bottom:4px;
-  }
-  
-  
+}
+
+
+.marquee__content {
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+} 
+
 @keyframes marquee {
   0% {
   transform: translateX(0);
@@ -31,13 +23,12 @@
 
 /* Pause animation when reduced-motion is set */
 @media (prefers-reduced-motion: reduce) {
-  .marquee {
+  .marquee__content {
     animation-play-state: paused !important;
   }
 }
 
 /* Pause on hover */
-.marquee-container--hover-pause:hover .marquee {
+.marquee--hover-pause:hover .marquee__content {
   animation-play-state: paused;
 }
-  
