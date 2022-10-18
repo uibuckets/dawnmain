@@ -32,6 +32,10 @@
               <p class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.caption | escape }}
               </p>
+            {%- when 'subheading' -%}
+              <p class="rich-text__subheading" {{ block.shopify_attributes }}>
+                {{ block.settings.subheading | escape }}
+              </p>
             {%- when 'text' -%}
               <div class="rich-text__text rte" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
