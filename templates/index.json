@@ -52,6 +52,12 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
+        "220ca4e8-ddac-4ac9-bbca-27996e0643c0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BEST FOR YOU<\/p>"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -67,6 +73,7 @@
         }
       },
       "block_order": [
+        "220ca4e8-ddac-4ac9-bbca-27996e0643c0",
         "heading",
         "text"
       ],
