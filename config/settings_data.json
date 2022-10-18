@@ -131,7 +131,7 @@
               "lefttext": "Welcome to our store",
               "date": "11\/21\/2022 10:00:00",
               "righttext": "Welcome to our store",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
@@ -150,7 +150,7 @@
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "show_social": false,
+          "show_social": true,
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
