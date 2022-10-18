@@ -70,12 +70,19 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "3d8ce3d7-1770-4c23-b325-36c54f19c523": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Add a subheading"
+          }
         }
       },
       "block_order": [
         "220ca4e8-ddac-4ac9-bbca-27996e0643c0",
         "heading",
-        "text"
+        "text",
+        "3d8ce3d7-1770-4c23-b325-36c54f19c523"
       ],
       "settings": {
         "desktop_content_position": "center",
