@@ -32,10 +32,7 @@
               <p class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.caption | escape }}
               </p>
-            {%- when 'subheading' -%}
-              <p class="rich-text__subheading" {{ block.shopify_attributes }}>
-                {{ block.settings.subheading | escape }}
-              </p>
+             
             {%- when 'text' -%}
               <div class="rich-text__text rte" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
@@ -249,19 +246,6 @@
         }
       ]
     },
-     {
-      "type": "subheading",
-      "name": "Subheading",
-      "limit": 3,
-      "settings": [
-        {
-          "type": "text",
-          "id": "subheading",
-          "default": "Add a subheading",
-          "label": "Sub Heading"
-        } 
-      ]
-    },
     {
       "type": "text",
       "name": "t:sections.rich-text.blocks.text.name",
@@ -324,9 +308,7 @@
       "blocks": [
         {
           "type": "heading"
-        },{
-          "type": "subheading"
-        },
+        }, 
         {
           "type": "text"
         },
