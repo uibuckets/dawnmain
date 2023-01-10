@@ -2609,6 +2609,8 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+    font-family: var(--font-heading-family);
+
 }
 
 .header--top-center .header__inline-menu,
