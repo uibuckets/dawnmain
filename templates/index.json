@@ -177,8 +177,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/organized-workspace.jpg",
-            "title": "",
+            "title": "Column",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/frontpage"

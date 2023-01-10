@@ -8,6 +8,9 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
+            "lefttext": "Welcome to our store",
+            "date": "",
+            "righttext": "",
             "color_scheme": "background-1",
             "link": ""
           }
@@ -23,13 +26,12 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-1",
-        "logo": "{{ shop.brand.logo }}",
-        "logo_width": 90,
         "logo_position": "middle-left",
         "menu": "main-menu",
+        "show_social": false,
         "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "enable_sticky_header": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 20,
