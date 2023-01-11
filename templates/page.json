@@ -20,10 +20,47 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "89faefbb-5db2-476d-bea2-eacc56830b76": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to luxlife",
+            "heading_size": "h1"
+          }
+        },
+        "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are a premium clothing destination that offers a curated selection of designer labels and high-end fashion pieces. We understand the importance of making a lasting impression and we strive to bring you the best in luxury fashion.<\/p><p>Our goal is to provide our customers with a one-of-a-kind shopping experience. We carefully select each piece to ensure that they are not only fashionable but also of the highest quality. We believe that style is not a luxury but a right and we strive to make it accessible to everyone.<\/p><p>We are dedicated to providing exceptional customer service and to ensuring that our customers are completely satisfied with their purchases. We want you to feel confident and beautiful in the clothes you wear, and we are here to help you every step of the way.<\/p><p>Thank you for choosing. We look forward to helping you elevate your wardrobe to new heights.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-0",
+        "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/luxlife-collection.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
-    "06303f4e-c092-4f70-97f3-5f1d11568ad6"
+    "06303f4e-c092-4f70-97f3-5f1d11568ad6",
+    "89faefbb-5db2-476d-bea2-eacc56830b76"
   ]
 }
