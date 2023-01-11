@@ -273,6 +273,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a8727859-6126-4ab0-9a71-d3c5ef8d4117": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-0": {
+          "type": "column",
+          "settings": {
+            "title": "Fitted perfectly",
+            "text": "<p>★★★★★<br\/>I’ve have purchased over twenty different items from this store and every single purchase has arrived promptly, fitted perfectly, are affordable, versatile and on trend.<br\/><em>Jane R.<\/em><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-1": {
+          "type": "column",
+          "settings": {
+            "title": "High end fashion",
+            "text": "<p>★★★★★<br\/>I was looking for high-end designer clothing and found luxlife, I was blown away by their selection of luxury fashion and the quality of the pieces. <\/p><p>May G.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-2": {
+          "type": "column",
+          "settings": {
+            "title": "Luxury fashion",
+            "text": "<p>★★★★★<br\/>Experience luxury fashion at its finest with our exclusive collection of designer clothing and accessories.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "59169737-ff52-425c-b47f-bd244272ff5e": {
+          "type": "column",
+          "settings": {
+            "title": "Customer service",
+            "text": "<p>★★★★★<br\/>The quality and customer service exceeded my expectations. I will definitely be shopping there again in the future<\/p><p>Lucy T.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-0",
+        "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-1",
+        "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-2",
+        "59169737-ff52-425c-b47f-bd244272ff5e"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -283,6 +346,7 @@
     "featured_collection",
     "6cd7fadb-b38f-45fd-a702-b1df3f003374",
     "922232eb-e5f1-4dce-b527-b53d7fa33de4",
-    "b93fa654-b32c-452f-92b7-88674dd6cf8b"
+    "b93fa654-b32c-452f-92b7-88674dd6cf8b",
+    "a8727859-6126-4ab0-9a71-d3c5ef8d4117"
   ]
 }
