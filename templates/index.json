@@ -82,8 +82,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "dcb7bc6b-fcc7-48ba-9855-96318d718d6d": {
@@ -156,8 +156,8 @@
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_collection": {
