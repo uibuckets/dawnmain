@@ -187,6 +187,50 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "6cd7fadb-b38f-45fd-a702-b1df3f003374": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About founder",
+            "heading_size": "h0"
+          }
+        },
+        "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-0",
+        "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-1",
+        "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/luxlife-collection.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 92
+      }
     }
   },
   "order": [
@@ -194,6 +238,7 @@
     "rich_text",
     "dcb7bc6b-fcc7-48ba-9855-96318d718d6d",
     "f62b8633-0292-4b97-8a1a-aa8bfebed4ff",
-    "featured_collection"
+    "featured_collection",
+    "6cd7fadb-b38f-45fd-a702-b1df3f003374"
   ]
 }
