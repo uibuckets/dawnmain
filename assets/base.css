@@ -1,5 +1,9 @@
 /* Color custom properties */
 
+.main-page-title {
+    display: none !important;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
