@@ -296,7 +296,7 @@
           "type": "column",
           "settings": {
             "title": "Fitted perfectly",
-            "text": "<p>★★★★★<br\/>I’ve have purchased over twenty different items from this store and every single purchase has arrived promptly, fitted perfectly, are affordable, versatile and on trend.<br\/><em>Jane R.<\/em><\/p>",
+            "text": "<p>★★★★★<br\/>I’ve have purchased over twenty different items from this store   promptly, fitted perfectly  versatile and on trend.<br\/><em>Jane R.<\/em><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -305,7 +305,7 @@
           "type": "column",
           "settings": {
             "title": "High end fashion",
-            "text": "<p>★★★★★<br\/>I was looking for high-end designer clothing and found luxlife, I was blown away by their selection of luxury fashion and the quality of the pieces. <\/p><p>May G.<\/p>",
+            "text": "<p>★★★★★<br\/>I was looking for high-end designer clothing and found luxlife, I was blown away   and the quality of the pieces. <\/p><p>May G.<\/p>",
             "link_label": "",
             "link": ""
           }
