@@ -208,7 +208,7 @@
         "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop Now",
             "button_link": ""
           }
         }
@@ -223,7 +223,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
