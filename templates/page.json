@@ -88,6 +88,33 @@
         "padding_bottom": 100
       }
     },
+    "4ddb7dbd-5cf8-4171-b012-a7e706d60981": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SHOP OUR FAVORITES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 7,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-2",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
     "89faefbb-5db2-476d-bea2-eacc56830b76": {
       "type": "image-with-text",
       "blocks": {
@@ -124,33 +151,6 @@
         "padding_bottom": 100
       }
     },
-    "4ddb7dbd-5cf8-4171-b012-a7e706d60981": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SHOP OUR FAVORITES",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best-sellers",
-        "products_to_show": 7,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "accent-2",
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 36
-      }
-    },
     "3e83ffef-89a9-4d9b-872b-fe6ad9da13bd": {
       "type": "multicolumn",
       "blocks": {
@@ -158,8 +158,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -178,8 +178,38 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "14974951-74f7-4226-99fa-ea12ec905773": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4fca2763-b9e1-486c-b4e0-aa80ec02a59f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "80a9c1e2-5d9b-46dc-8494-43b8ea724144": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vintage-shopping.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -188,23 +218,26 @@
       "block_order": [
         "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-0",
         "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-1",
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-2"
+        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-2",
+        "14974951-74f7-4226-99fa-ea12ec905773",
+        "4fca2763-b9e1-486c-b4e0-aa80ec02a59f",
+        "80a9c1e2-5d9b-46dc-8494-43b8ea724144"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
+        "columns_desktop": 6,
+        "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "button_label": "@luxlife",
+        "button_link": "https:\/\/www.instagram.com\/",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
@@ -212,8 +245,8 @@
     "545f7564-bb1b-4585-a9c8-9832a08db465",
     "main",
     "2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5",
-    "89faefbb-5db2-476d-bea2-eacc56830b76",
     "4ddb7dbd-5cf8-4171-b012-a7e706d60981",
+    "89faefbb-5db2-476d-bea2-eacc56830b76",
     "3e83ffef-89a9-4d9b-872b-fe6ad9da13bd"
   ]
 }
