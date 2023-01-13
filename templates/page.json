@@ -1,17 +1,46 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "545f7564-bb1b-4585-a9c8-9832a08db465": {
+      "type": "dynamic-image-banner",
+      "blocks": {
+        "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-0",
+        "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-1",
+        "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2"
+      ],
       "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "06303f4e-c092-4f70-97f3-5f1d11568ad6": {
-      "type": "image-banner",
-      "settings": {
+        "image": "shopify:\/\/shop_images\/LUXLIFE-BANNER-Mobile_1.png",
+        "image_mobile": "shopify:\/\/shop_images\/LUXLIFE-BANNER-Mobile_1200_x_1200px.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "image_link": "",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -21,21 +50,59 @@
         "show_text_below": true
       }
     },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17550435778881__2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5-1673633266212c2417-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><\/p><p>Our Story<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "template--17550435778881__2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5-1673633266212c2417-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The LuxLife story began with a passion for fashion and a desire to create clothing that is both stylish and sustainable. We believe that fashion should be accessible to everyone, while also being mindful of the environment and the people who make our clothes.We started with a small collection of timeless styles that are designed to last. We focus on quality craftsmanship and use only the best materials to create clothing that is built to last. We are constantly updating our collection with new styles and trends to keep our customers looking their best.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17550435778881__2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5-1673633266212c2417-0",
+        "template--17550435778881__2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5-1673633266212c2417-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 96,
+        "padding_bottom": 100
+      }
+    },
     "89faefbb-5db2-476d-bea2-eacc56830b76": {
       "type": "image-with-text",
       "blocks": {
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-0": {
           "type": "heading",
           "settings": {
-            "heading": "Welcome to luxlife",
+            "heading": "Meet the team",
             "heading_size": "h1"
           }
         },
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are a premium clothing destination that offers a curated selection of designer labels and high-end fashion pieces. We understand the importance of making a lasting impression and we strive to bring you the best in luxury fashion.<\/p><p>Our goal is to provide our customers with a one-of-a-kind shopping experience. We carefully select each piece to ensure that they are not only fashionable but also of the highest quality. We believe that style is not a luxury but a right and we strive to make it accessible to everyone.<\/p><p>We are dedicated to providing exceptional customer service and to ensuring that our customers are completely satisfied with their purchases. We want you to feel confident and beautiful in the clothes you wear, and we are here to help you every step of the way.<\/p><p>Thank you for choosing. We look forward to helping you elevate your wardrobe to new heights.<\/p>",
-            "text_style": "body"
+            "text": "<p>We are passionate about creating fashionable pieces that are not only trendy but also ethically made. We work closely with our suppliers to ensure that our clothing is made with care for the environment and the people who make it. Our collection includes everything from casual wear to formal wear, including tops, bottoms, dresses, and outerwear that cater to different body types and personal preferences.<\/p>",
+            "text_style": "subtitle"
           }
         }
       },
@@ -44,10 +111,10 @@
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/luxlife-collection.png",
+        "image": "shopify:\/\/shop_images\/luxlife-collection_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -59,8 +126,9 @@
     }
   },
   "order": [
+    "545f7564-bb1b-4585-a9c8-9832a08db465",
     "main",
-    "06303f4e-c092-4f70-97f3-5f1d11568ad6",
+    "2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5",
     "89faefbb-5db2-476d-bea2-eacc56830b76"
   ]
 }
