@@ -16,9 +16,9 @@
             "link": "",
             "button_style_secondary": false,
             "box_align": "top-left",
-            "show_text_box": true,
-            "show_image_overlay": true,
-            "text_alignment": "right",
+            "show_text_box": false,
+            "show_image_overlay": false,
+            "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
