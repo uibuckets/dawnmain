@@ -97,7 +97,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best-sellers",
-        "products_to_show": 7,
+        "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": false,
@@ -224,7 +224,7 @@
         "80a9c1e2-5d9b-46dc-8494-43b8ea724144"
       ],
       "settings": {
-        "title": "",
+        "title": "Follow Us",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
