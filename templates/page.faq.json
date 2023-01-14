@@ -74,9 +74,9 @@
         "89bf7bfc-3f86-48b6-a32d-3cd80dbe6768": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What is your policy on damaged or defective items?",
+            "icon": "none",
+            "row_content": "<p>If you receive a damaged or defective item, please contact our customer service team within 14 days of receiving your order. They will assist you with a replacement or refund.<\/p>",
             "page": ""
           }
         }
