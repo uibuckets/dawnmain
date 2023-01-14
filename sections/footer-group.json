@@ -16,7 +16,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Explore",
-            "menu": "explore"
+            "menu": "main-menu"
           }
         },
         "footer-2": {
