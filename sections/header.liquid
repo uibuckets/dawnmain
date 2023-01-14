@@ -54,6 +54,9 @@
     .social_header {
       display: none !important;
     }
+  .h1_mobile{
+    font-size: calc(var(--font-heading-scale) * 2rem);
+  }
   }
 
   .header {
@@ -420,7 +423,7 @@
                 alt: logo_alt
               }}
             {%- else -%}
-              <span class="h1">{{ shop.name }}</span>
+              <span class="h1 h1_mobile">{{ shop.name }}</span>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
