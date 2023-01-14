@@ -53,22 +53,14 @@
     "6b43c4bf-7674-48d8-86a1-88c0535d936c": {
       "type": "rich-text",
       "blocks": {
-        "template--17550436139329__6b43c4bf-7674-48d8-86a1-88c0535d936c-1673677349b8fc1d9f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Contact us<\/p>",
-            "heading_size": "h1"
-          }
-        },
         "template--17550436139329__6b43c4bf-7674-48d8-86a1-88c0535d936c-1673677349b8fc1d9f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We'd love to hear from you! Whether you have a question about our products or services, or just want to say hello, please don't hesitate to reach out to <strong>email@domain.com.<\/strong>Alternatively, you can fill out the form below and we will get back to you as soon as possible.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--17550436139329__6b43c4bf-7674-48d8-86a1-88c0535d936c-1673677349b8fc1d9f-0",
         "template--17550436139329__6b43c4bf-7674-48d8-86a1-88c0535d936c-1673677349b8fc1d9f-1"
       ],
       "settings": {
@@ -97,12 +89,35 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2e1d24d2-587d-48e3-87ab-b6323d0cecaa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17550436139329__2e1d24d2-587d-48e3-87ab-b6323d0cecaa-1673719171b1e915ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We value your feedback and appreciate any comments or suggestions you may have. Thank you for choosing our company.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17550436139329__2e1d24d2-587d-48e3-87ab-b6323d0cecaa-1673719171b1e915ef-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f",
     "6b43c4bf-7674-48d8-86a1-88c0535d936c",
     "main",
-    "form"
+    "form",
+    "2e1d24d2-587d-48e3-87ab-b6323d0cecaa"
   ]
 }
