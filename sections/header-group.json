@@ -37,10 +37,61 @@
         "padding_top": 20,
         "padding_bottom": 28
       }
+    },
+    "450606b2-c94f-4c12-9a05-cf236f9733d8": {
+      "type": "dynamic-image-banner",
+      "blocks": {
+        "sections--17550435451201__450606b2-c94f-4c12-9a05-cf236f9733d8-167371409035657449-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "sections--17550435451201__450606b2-c94f-4c12-9a05-cf236f9733d8-167371409035657449-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "sections--17550435451201__450606b2-c94f-4c12-9a05-cf236f9733d8-167371409035657449-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "sections--17550435451201__450606b2-c94f-4c12-9a05-cf236f9733d8-167371409035657449-0",
+        "sections--17550435451201__450606b2-c94f-4c12-9a05-cf236f9733d8-167371409035657449-1",
+        "sections--17550435451201__450606b2-c94f-4c12-9a05-cf236f9733d8-167371409035657449-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/luxlife-faq_2.png",
+        "image_mobile": "shopify:\/\/shop_images\/2_990e5e04-3437-4d78-9cfe-5c2565aa3fdf.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "image_link": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "450606b2-c94f-4c12-9a05-cf236f9733d8"
   ]
 }
