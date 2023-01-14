@@ -438,8 +438,9 @@
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -447,6 +448,7 @@
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -456,8 +458,39 @@
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4f8db37a-830f-461e-9ba7-c29229bbe88b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d8ea5c04-27d1-448a-99e0-b619677e49c0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "271b179e-0ba5-43ba-bb76-8fe60344cfa1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vintage-shopping.jpg",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -466,7 +499,10 @@
       "block_order": [
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-0",
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-1",
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-2"
+        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-2",
+        "4f8db37a-830f-461e-9ba7-c29229bbe88b",
+        "d8ea5c04-27d1-448a-99e0-b619677e49c0",
+        "271b179e-0ba5-43ba-bb76-8fe60344cfa1"
       ],
       "settings": {
         "title": "Follow Us On Instagram",
