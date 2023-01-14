@@ -449,8 +449,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -459,8 +459,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -469,8 +469,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -479,8 +479,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
