@@ -56,9 +56,9 @@
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How can I pay for my order?",
+            "icon": "none",
+            "row_content": "<p>We accept payments through major credit cards (Visa, MasterCard, American Express), PayPal, and also cash on delivery in some regions.<\/p>",
             "page": ""
           }
         }
