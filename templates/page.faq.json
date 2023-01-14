@@ -61,13 +61,33 @@
             "row_content": "<p>We accept payments through major credit cards (Visa, MasterCard, American Express), PayPal, and also cash on delivery in some regions.<\/p>",
             "page": ""
           }
+        },
+        "b1e43323-f069-49f1-b5b6-d8f585586ea0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take for my order to arrive?",
+            "icon": "none",
+            "row_content": "<p>Shipping times vary depending on your location and the shipping method you choose. You can view the estimated delivery date for your order in your account or on the checkout page.<\/p>",
+            "page": ""
+          }
+        },
+        "89bf7bfc-3f86-48b6-a32d-3cd80dbe6768": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-0",
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-1",
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-2",
-        "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-3"
+        "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-3",
+        "b1e43323-f069-49f1-b5b6-d8f585586ea0",
+        "89bf7bfc-3f86-48b6-a32d-3cd80dbe6768"
       ],
       "settings": {
         "caption": "",
