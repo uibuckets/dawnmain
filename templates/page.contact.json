@@ -1,5 +1,55 @@
 {
   "sections": {
+    "217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f": {
+      "type": "dynamic-image-banner",
+      "blocks": {
+        "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-0",
+        "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-1",
+        "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/luxlife-faq_2.png",
+        "image_mobile": "shopify:\/\/shop_images\/2_f34457d0-9b4b-428c-b35a-3c67cc82ae9c.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "image_link": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "6b43c4bf-7674-48d8-86a1-88c0535d936c": {
       "type": "rich-text",
       "blocks": {
@@ -50,6 +100,7 @@
     }
   },
   "order": [
+    "217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f",
     "6b43c4bf-7674-48d8-86a1-88c0535d936c",
     "main",
     "form"
