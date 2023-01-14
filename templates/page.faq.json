@@ -8,14 +8,17 @@
         "padding_bottom": 36
       }
     },
-    "472ae163-cf93-4032-82e5-400f76ed4ffe": {
-      "type": "image-banner",
+    "911fb9a6-7fc6-4837-85d3-6fa1661ad91f": {
+      "type": "dynamic-image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/luxlife-faq_1.png",
+        "image_mobile": "shopify:\/\/shop_images\/1_18e04d4c-98e3-4b39-842a-b4a53322178d.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "image_link": "",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
@@ -110,14 +113,14 @@
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 68,
+        "padding_top": 16,
         "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
-    "472ae163-cf93-4032-82e5-400f76ed4ffe",
+    "911fb9a6-7fc6-4837-85d3-6fa1661ad91f",
     "44f31e96-66fd-4210-827e-f74b6085ae8c"
   ]
 }
