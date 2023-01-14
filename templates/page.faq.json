@@ -29,7 +29,7 @@
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What sizes do you carry",
+            "heading": "What sizes do you carry?",
             "icon": "none",
             "row_content": "<p>We carry a range of sizes for men, women, and children. Please check the product page or size chart for specific information on available sizes.<\/p>",
             "page": ""
@@ -38,9 +38,9 @@
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How can I track my order?",
+            "icon": "none",
+            "row_content": "<p>Once your order has been shipped, you will receive a shipping confirmation email with a tracking number. You can also log into your account to view your order status and track your package.<\/p>",
             "page": ""
           }
         },
