@@ -19,13 +19,6 @@
             "menu": "explore"
           }
         },
-        "67f40c59-c59b-4e16-ab84-aa215d1d02ec": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Contact Us",
-            "menu": "footer"
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -37,7 +30,6 @@
       "block_order": [
         "footer-0",
         "footer-1",
-        "67f40c59-c59b-4e16-ab84-aa215d1d02ec",
         "footer-2"
       ],
       "settings": {
