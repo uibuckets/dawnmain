@@ -47,9 +47,9 @@
         "template--17595724235073__44f31e96-66fd-4210-827e-f74b6085ae8c-16736359167dde871c-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can I make changes to my order after it has been placed?",
+            "icon": "none",
+            "row_content": "<p>We process and ship orders quickly, so we may not be able to make changes to your order after it has been placed. However, please contact our customer service team as soon as possible and they will assist you.<\/p>",
             "page": ""
           }
         },
