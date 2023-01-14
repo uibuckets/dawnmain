@@ -43,8 +43,8 @@
         "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LUXLIFE-About_3200_x_1040px_73eef6c9-197f-4801-9ee6-39212ce46c2c.png",
-        "image_mobile": "shopify:\/\/shop_images\/MobileLUXLIFE-About_3200_x_1040px.png",
+        "image": "shopify:\/\/shop_images\/LUXLIFE-About_3200_x_1040px.png",
+        "image_mobile": "shopify:\/\/shop_images\/MobileLUXLIFE-About_3200_x_1040px_1.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
