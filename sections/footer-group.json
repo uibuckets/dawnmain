@@ -34,7 +34,7 @@
       ],
       "settings": {
         "color_scheme": "accent-2",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "show_social": true,
         "enable_country_selector": false,
@@ -42,7 +42,7 @@
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
-        "padding_top": 36,
+        "padding_top": 64,
         "padding_bottom": 36
       }
     }
