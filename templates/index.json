@@ -6,8 +6,6 @@
         "template--16667746468115__25397dfa-97a5-4ba8-b5eb-adcf9db95822-166611517288b80b77-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LUXLIFE-BANNER_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -201,7 +199,6 @@
         "template--17550435811649__6cd7fadb-b38f-45fd-a702-b1df3f003374-1673456337c2dc1280-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/luxlife-collection.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -249,8 +246,6 @@
         "template--17550435811649__dded711a-ba2d-4f5e-8419-9bf80259b5b6-1673626349b1f89937-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LUXLIFE-BANNER_2.png",
-        "image_mobile": "shopify:\/\/shop_images\/2.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
@@ -357,8 +352,6 @@
     "0729f329-1124-451a-82d2-3ff45979e761": {
       "type": "dynamic-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/luxlife-reviews.png",
-        "image_mobile": "shopify:\/\/shop_images\/mobile-luxlife-reviews.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
@@ -441,7 +434,6 @@
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -451,7 +443,6 @@
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -461,7 +452,6 @@
         "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -471,7 +461,6 @@
         "4f8db37a-830f-461e-9ba7-c29229bbe88b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -481,7 +470,6 @@
         "d8ea5c04-27d1-448a-99e0-b619677e49c0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -491,7 +479,6 @@
         "271b179e-0ba5-43ba-bb76-8fe60344cfa1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vintage-shopping.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -517,7 +504,7 @@
         "background_style": "primary",
         "button_label": "@luxlife",
         "button_link": "https:\/\/www.instagram.com",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,

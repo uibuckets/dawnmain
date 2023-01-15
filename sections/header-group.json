@@ -26,13 +26,13 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-1",
-        "logo_position": "top-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "show_social": false,
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
-        "mobile_logo_position": "center",
+        "mobile_logo_position": "left",
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 28
