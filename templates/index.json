@@ -327,6 +327,56 @@
         "padding_bottom": 100
       }
     },
+    "0729f329-1124-451a-82d2-3ff45979e761": {
+      "type": "dynamic-image-banner",
+      "blocks": {
+        "template--17550435811649__0729f329-1124-451a-82d2-3ff45979e761-16737596228e81e14b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17550435811649__0729f329-1124-451a-82d2-3ff45979e761-16737596228e81e14b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17550435811649__0729f329-1124-451a-82d2-3ff45979e761-16737596228e81e14b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17550435811649__0729f329-1124-451a-82d2-3ff45979e761-16737596228e81e14b-0",
+        "template--17550435811649__0729f329-1124-451a-82d2-3ff45979e761-16737596228e81e14b-1",
+        "template--17550435811649__0729f329-1124-451a-82d2-3ff45979e761-16737596228e81e14b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/luxlife-reviews.png",
+        "image_mobile": "shopify:\/\/shop_images\/mobile-luxlife-reviews.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "image_link": "",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "b93fa654-b32c-452f-92b7-88674dd6cf8b": {
       "type": "featured-collection",
       "settings": {
@@ -352,21 +402,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "63bfd4a5-84b4-4f00-bcff-a1c1b3a30b38": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/luxlife-reviews.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "a8727859-6126-4ab0-9a71-d3c5ef8d4117": {
@@ -531,8 +566,8 @@
     "6cd7fadb-b38f-45fd-a702-b1df3f003374",
     "dded711a-ba2d-4f5e-8419-9bf80259b5b6",
     "56eb9904-506e-44b1-8da4-5684b862e609",
+    "0729f329-1124-451a-82d2-3ff45979e761",
     "b93fa654-b32c-452f-92b7-88674dd6cf8b",
-    "63bfd4a5-84b4-4f00-bcff-a1c1b3a30b38",
     "a8727859-6126-4ab0-9a71-d3c5ef8d4117",
     "313c58a9-988e-4e53-8bad-a1f89b492d19"
   ]
