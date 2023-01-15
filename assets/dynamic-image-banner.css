@@ -4,6 +4,11 @@
   flex-direction: column;
 }
 
+a:not([href]) .dynamic__banner {
+  cursor: auto !important;
+}
+
+
 .dynamic__banner__box {
   text-align: center;
 }
