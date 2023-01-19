@@ -141,7 +141,8 @@
   // Update the count down every 1 second
   var x = setInterval(function () {
       // Get today's date and time
-      var timerData = document.getElementById("gs-timer-bar").dataset;
+      var timerData = document.getElementById("gs-timer-bar")?.dataset;
+      if(timerData){
       var countDownDate = new Date(timerData.value).getTime();
       var now = new Date().getTime();
       // Find the distance between now and the count down date
@@ -187,6 +188,7 @@
       if (distance < 0) {
           clearInterval(x);
       }
+    }
   }, 1000);
 </script>
 
