@@ -81,13 +81,13 @@
         "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "new-arrivals"
           }
         },
         "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "on-sale"
+            "collection": "shop-macrame"
           }
         }
       },
