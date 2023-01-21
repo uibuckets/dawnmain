@@ -129,7 +129,7 @@
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
@@ -269,7 +269,7 @@
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
@@ -383,89 +383,6 @@
         "padding_top": 44,
         "padding_bottom": 44
       }
-    },
-    "313c58a9-988e-4e53-8bad-a1f89b492d19": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "4f8db37a-830f-461e-9ba7-c29229bbe88b": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "d8ea5c04-27d1-448a-99e0-b619677e49c0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "271b179e-0ba5-43ba-bb76-8fe60344cfa1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-0",
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-1",
-        "template--17550435811649__313c58a9-988e-4e53-8bad-a1f89b492d19-1673684824d448dd58-2",
-        "4f8db37a-830f-461e-9ba7-c29229bbe88b",
-        "d8ea5c04-27d1-448a-99e0-b619677e49c0",
-        "271b179e-0ba5-43ba-bb76-8fe60344cfa1"
-      ],
-      "settings": {
-        "title": "Follow Us On Instagram",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "@luxlife",
-        "button_link": "https:\/\/www.instagram.com",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -477,7 +394,6 @@
     "56eb9904-506e-44b1-8da4-5684b862e609",
     "b93fa654-b32c-452f-92b7-88674dd6cf8b",
     "f62b8633-0292-4b97-8a1a-aa8bfebed4ff",
-    "a8727859-6126-4ab0-9a71-d3c5ef8d4117",
-    "313c58a9-988e-4e53-8bad-a1f89b492d19"
+    "a8727859-6126-4ab0-9a71-d3c5ef8d4117"
   ]
 }
