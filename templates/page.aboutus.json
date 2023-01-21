@@ -155,7 +155,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Our Blogs",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "blog": "blogs",
         "post_limit": 4,
         "columns_desktop": 3,
