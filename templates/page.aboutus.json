@@ -43,6 +43,8 @@
         "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/homes-about-banner-desktop_1_3b9b0da1-423a-48d5-8de5-909fb20c87b1.png",
+        "image_mobile": "shopify:\/\/shop_images\/homes-about-banner-mobile_1600_x_1400px_47fbbbc1-737a-43c0-bb86-9a58d2cba397.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
