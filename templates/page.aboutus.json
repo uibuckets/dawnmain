@@ -111,9 +111,10 @@
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/2_e6bd0fd1-2dbb-4eed-9f1b-f089931537ca.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
