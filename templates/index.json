@@ -89,12 +89,19 @@
           "settings": {
             "collection": "shop-macrame"
           }
+        },
+        "dfc45199-cbe2-471d-9d20-d7926c93a44b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "indoor-plants"
+          }
         }
       },
       "block_order": [
         "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-0",
         "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-1",
-        "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-2"
+        "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-2",
+        "dfc45199-cbe2-471d-9d20-d7926c93a44b"
       ],
       "settings": {
         "title": "",
