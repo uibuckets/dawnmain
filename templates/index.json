@@ -278,7 +278,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -339,8 +339,8 @@
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-0": {
           "type": "column",
           "settings": {
-            "title": "Fitted perfectly",
-            "text": "<p>★★★★★<br\/>I’ve have purchased over twenty different items from this store   promptly, fitted perfectly  versatile and on trend.<br\/><em>Jane R.<\/em><\/p>",
+            "title": "Jade Jewel",
+            "text": "<p>★★★★★<br\/>I recently ordered a \"Jade Jewel\" plant for my office and it has been a great addition to my space.<br\/>Sarah<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -349,7 +349,7 @@
           "type": "column",
           "settings": {
             "title": "High end fashion",
-            "text": "<p>★★★★★<br\/>I was looking for high-end designer clothing and found luxlife, I was blown away   and the quality of the pieces. <\/p><p>May G.<\/p>",
+            "text": "<p>★★★★★<br\/>I purchased a \"Golden Goddess\" pothos plant for my bedroom and it has been a great addition to my room. <\/p><p>Rachel G.<\/p>",
             "link_label": "",
             "link": ""
           }
