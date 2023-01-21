@@ -89,25 +89,18 @@
           "settings": {
             "collection": "shop-macrame"
           }
-        },
-        "dfc45199-cbe2-471d-9d20-d7926c93a44b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "indoor-plants"
-          }
         }
       },
       "block_order": [
         "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-0",
         "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-1",
-        "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-2",
-        "dfc45199-cbe2-471d-9d20-d7926c93a44b"
+        "template--17550435811649__dcb7bc6b-fcc7-48ba-9855-96318d718d6d-1673453361930a4274-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -140,7 +133,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
+        "padding_bottom": 68
       }
     },
     "dded711a-ba2d-4f5e-8419-9bf80259b5b6": {
@@ -253,14 +246,14 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 48
       }
     },
     "b93fa654-b32c-452f-92b7-88674dd6cf8b": {
       "type": "featured-collection",
       "settings": {
         "title": "Best Sellers",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
