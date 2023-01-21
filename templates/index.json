@@ -380,8 +380,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 100
+        "padding_top": 44,
+        "padding_bottom": 44
       }
     },
     "313c58a9-988e-4e53-8bad-a1f89b492d19": {
