@@ -43,8 +43,6 @@
         "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LUXLIFE-About_3200_x_1040px.png",
-        "image_mobile": "shopify:\/\/shop_images\/MobileLUXLIFE-About_3200_x_1040px_1.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
@@ -88,33 +86,6 @@
         "padding_bottom": 100
       }
     },
-    "4ddb7dbd-5cf8-4171-b012-a7e706d60981": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Our Favourites",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best-sellers",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-2",
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 36
-      }
-    },
     "89faefbb-5db2-476d-bea2-eacc56830b76": {
       "type": "image-with-text",
       "blocks": {
@@ -138,7 +109,6 @@
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/luxlife-collection_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -149,6 +119,33 @@
         "mobile_content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "4ddb7dbd-5cf8-4171-b012-a7e706d60981": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Favourites",
+        "heading_size": "h2",
+        "description": "<p>Hand picked by our designers<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 36
       }
     },
     "6c1a978d-2be2-4546-addc-c645dec1b388": {
@@ -167,104 +164,14 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "3e83ffef-89a9-4d9b-872b-fe6ad9da13bd": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/model-in-neutral-colors-by-window.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "14974951-74f7-4226-99fa-ea12ec905773": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "4fca2763-b9e1-486c-b4e0-aa80ec02a59f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "80a9c1e2-5d9b-46dc-8494-43b8ea724144": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vintage-shopping.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-0",
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-1",
-        "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-2",
-        "14974951-74f7-4226-99fa-ea12ec905773",
-        "4fca2763-b9e1-486c-b4e0-aa80ec02a59f",
-        "80a9c1e2-5d9b-46dc-8494-43b8ea724144"
-      ],
-      "settings": {
-        "title": "Follow Us On Instagram",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "@luxlife",
-        "button_link": "https:\/\/www.instagram.com\/",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
     "main",
     "545f7564-bb1b-4585-a9c8-9832a08db465",
     "2191bde3-4e3f-4adb-a6a7-b6e7733e4bb5",
-    "4ddb7dbd-5cf8-4171-b012-a7e706d60981",
     "89faefbb-5db2-476d-bea2-eacc56830b76",
-    "6c1a978d-2be2-4546-addc-c645dec1b388",
-    "3e83ffef-89a9-4d9b-872b-fe6ad9da13bd"
+    "4ddb7dbd-5cf8-4171-b012-a7e706d60981",
+    "6c1a978d-2be2-4546-addc-c645dec1b388"
   ]
 }
