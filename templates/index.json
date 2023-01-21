@@ -317,28 +317,13 @@
         "padding_bottom": 36
       }
     },
-    "0729f329-1124-451a-82d2-3ff45979e761": {
-      "type": "dynamic-image-banner",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "image_link": "",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "a8727859-6126-4ab0-9a71-d3c5ef8d4117": {
       "type": "multicolumn",
       "blocks": {
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_052e1e28-22b8-42b6-964f-f7ebc0484cff.png",
             "title": "Jade Jewel",
             "text": "<p>★★★★★<br\/>I recently ordered a \"Jade Jewel\" plant for my office and it has been a great addition to my space.<br\/>Sarah<\/p>",
             "link_label": "",
@@ -348,6 +333,7 @@
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2_c197348a-6f2c-47fa-bb9a-bc384ce02c6e.png",
             "title": "Highly recommend",
             "text": "<p>★★★★★<br\/>I purchased a \"Golden Goddess\" pothos plant for my bedroom and it has been a great addition to my room. <\/p><p>Rachel G.<\/p>",
             "link_label": "",
@@ -357,6 +343,7 @@
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
             "title": "Modern minimalist",
             "text": "<p>★★★★★<br\/>I purchased a \"Tropical Temptation\" bird of paradise plant for my kitchen and it has been a great addition to my space<\/p><p>Livua H<\/p>",
             "link_label": "",
@@ -366,6 +353,7 @@
         "59169737-ff52-425c-b47f-bd244272ff5e": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_1d338949-df75-4581-a3f8-3c71cbdb30fe.png",
             "title": "Customer service",
             "text": "<p>★★★★★<br\/>The quality and customer service exceeded my expectations. I will definitely be shopping there again in the future<\/p><p>Lucy T.<\/p>",
             "link_label": "",
@@ -489,7 +477,6 @@
     "dded711a-ba2d-4f5e-8419-9bf80259b5b6",
     "56eb9904-506e-44b1-8da4-5684b862e609",
     "b93fa654-b32c-452f-92b7-88674dd6cf8b",
-    "0729f329-1124-451a-82d2-3ff45979e761",
     "a8727859-6126-4ab0-9a71-d3c5ef8d4117",
     "313c58a9-988e-4e53-8bad-a1f89b492d19"
   ]
