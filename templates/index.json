@@ -433,6 +433,84 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9e24cd22-9388-4a9a-9012-a169be03cfb5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/open-plan-kitchen-with-wooden-fixtures.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_c197348a-6f2c-47fa-bb9a-bc384ce02c6e.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "23b95b33-0abf-48ee-8ee6-20abe83143ca": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1d338949-df75-4581-a3f8-3c71cbdb30fe.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0d267ff6-2bf9-472d-8310-4a11877b5d30": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laptop-on-a-the-white-desk-of-a-home-office.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-0",
+        "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-1",
+        "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-2",
+        "23b95b33-0abf-48ee-8ee6-20abe83143ca",
+        "0d267ff6-2bf9-472d-8310-4a11877b5d30"
+      ],
+      "settings": {
+        "title": "Follow us in instagram",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -446,6 +524,7 @@
     "b93fa654-b32c-452f-92b7-88674dd6cf8b",
     "72306bdc-df21-448a-9822-537761b9e5c7",
     "a8727859-6126-4ab0-9a71-d3c5ef8d4117",
-    "8cd7cd36-b444-43f0-b3f9-75aeaeeabc18"
+    "8cd7cd36-b444-43f0-b3f9-75aeaeeabc18",
+    "9e24cd22-9388-4a9a-9012-a169be03cfb5"
   ]
 }
