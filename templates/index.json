@@ -496,14 +496,14 @@
         "0d267ff6-2bf9-472d-8310-4a11877b5d30"
       ],
       "settings": {
-        "title": "Follow us in instagram",
+        "title": "Follow us on instagram",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "image_ratio": "square",
+        "columns_desktop": 6,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "@earthyhomes",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
