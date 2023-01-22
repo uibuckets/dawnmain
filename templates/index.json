@@ -486,6 +486,16 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "2f30e4a9-5b57-4b19-a694-e397cbd48b5b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yellow-sofa-with-throw-pillows.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -493,7 +503,8 @@
         "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-1",
         "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-2",
         "23b95b33-0abf-48ee-8ee6-20abe83143ca",
-        "0d267ff6-2bf9-472d-8310-4a11877b5d30"
+        "0d267ff6-2bf9-472d-8310-4a11877b5d30",
+        "2f30e4a9-5b57-4b19-a694-e397cbd48b5b"
       ],
       "settings": {
         "title": "Follow us on instagram",
@@ -504,7 +515,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "@earthyhomes",
-        "button_link": "",
+        "button_link": "https:\/\/www.instagram.com\/",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
