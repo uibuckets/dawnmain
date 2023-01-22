@@ -149,6 +149,7 @@
         "template--17550435811649__56eb9904-506e-44b1-8da4-5684b862e609-167345676368559cf2-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/medal.png",
             "title": "Exceptional quality",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -158,6 +159,7 @@
         "template--17550435811649__56eb9904-506e-44b1-8da4-5684b862e609-167345676368559cf2-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/shipping.png",
             "title": "Ethically made",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -167,6 +169,7 @@
         "template--17550435811649__56eb9904-506e-44b1-8da4-5684b862e609-167345676368559cf2-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/delivery.png",
             "title": "Free shipping & returns",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -176,6 +179,7 @@
         "b3076aaa-8d86-48f1-8dd7-82a5767bcb91": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/made-in-usa_1.png",
             "title": "Made in USA",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
