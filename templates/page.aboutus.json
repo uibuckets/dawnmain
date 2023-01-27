@@ -101,7 +101,7 @@
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are passionate about creating fashionable pieces that are not only trendy but also ethically made. We work closely with our suppliers to ensure that our clothing is made with care for the environment and the people who make it. Our collection includes everything from casual wear to formal wear, including tops, bottoms, dresses, and outerwear that cater to different body types and personal preferences.<\/p>",
+            "text": "<p>We are passionate about creating fashionable pieces that are not only trendy but also ethically made. We work closely with our suppliers to ensure that our clothing is made with care for the environment and the people who make it.<\/p>",
             "text_style": "subtitle"
           }
         }
@@ -111,12 +111,13 @@
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Copy_of_founder_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "padding_top": 100,
