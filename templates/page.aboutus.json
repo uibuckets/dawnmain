@@ -43,6 +43,8 @@
         "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/kloth-about-banner-desktop_1.png",
+        "image_mobile": "shopify:\/\/shop_images\/kloth-about-banner-desktop_1000_x_1000px.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
