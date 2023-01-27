@@ -7,6 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/kloth-desktop-banner_6.png",
+            "image_mobile": "shopify:\/\/shop_images\/1_d99457a8-2800-4650-9acc-3755a0252c2f.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -205,6 +206,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2_95b5e299-23b7-438d-9cca-96d70c441c36.png",
+        "image_mobile": "shopify:\/\/shop_images\/2_70f2e109-200a-4cd0-8cae-0a8a1f174dfb.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
