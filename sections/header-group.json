@@ -26,11 +26,11 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-2",
-        "logo_position": "top-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "show_social": false,
         "menu_type_desktop": "mega",
-        "sticky_header_type": "none",
+        "sticky_header_type": "reduce-logo-size",
         "show_line_separator": false,
         "mobile_logo_position": "left",
         "margin_bottom": 0,
