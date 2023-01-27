@@ -43,8 +43,6 @@
         "template--17550435778881__545f7564-bb1b-4585-a9c8-9832a08db465-167363211623be98ab-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LUXLIFE-About_3200_x_1040px.png",
-        "image_mobile": "shopify:\/\/shop_images\/MobileLUXLIFE-About_3200_x_1040px_1.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
@@ -82,7 +80,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 100,
         "padding_bottom": 100
@@ -92,7 +90,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Our Favourites",
-        "heading_size": "h2",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -103,7 +101,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -138,14 +136,13 @@
         "template--17550435778881__89faefbb-5db2-476d-bea2-eacc56830b76-167345949655a92e96-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/luxlife-collection_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100
@@ -159,7 +156,7 @@
         "blog": "blogs",
         "post_limit": 4,
         "columns_desktop": 3,
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "show_image": true,
         "show_date": false,
         "show_author": false,
@@ -174,7 +171,6 @@
         "template--17550435778881__3e83ffef-89a9-4d9b-872b-fe6ad9da13bd-16736332661eab9b74-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -204,7 +200,6 @@
         "14974951-74f7-4226-99fa-ea12ec905773": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -214,7 +209,6 @@
         "4fca2763-b9e1-486c-b4e0-aa80ec02a59f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -224,7 +218,6 @@
         "80a9c1e2-5d9b-46dc-8494-43b8ea724144": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vintage-shopping.jpg",
             "title": "",
             "text": "",
             "link_label": "",
