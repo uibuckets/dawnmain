@@ -283,6 +283,42 @@
         "padding_bottom": 100
       }
     },
+    "fa81973b-00a8-41da-bd5e-4fc7a2538c6c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17790091657514__fa81973b-00a8-41da-bd5e-4fc7a2538c6c-167482568451f3a90d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Founder",
+            "heading_size": "h1"
+          }
+        },
+        "template--17790091657514__fa81973b-00a8-41da-bd5e-4fc7a2538c6c-167482568451f3a90d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17790091657514__fa81973b-00a8-41da-bd5e-4fc7a2538c6c-167482568451f3a90d-0",
+        "template--17790091657514__fa81973b-00a8-41da-bd5e-4fc7a2538c6c-167482568451f3a90d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Copy_of_founder_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "b93fa654-b32c-452f-92b7-88674dd6cf8b": {
       "type": "featured-collection",
       "settings": {
@@ -386,6 +422,7 @@
     "featured_collection",
     "dded711a-ba2d-4f5e-8419-9bf80259b5b6",
     "56eb9904-506e-44b1-8da4-5684b862e609",
+    "fa81973b-00a8-41da-bd5e-4fc7a2538c6c",
     "b93fa654-b32c-452f-92b7-88674dd6cf8b",
     "a8727859-6126-4ab0-9a71-d3c5ef8d4117"
   ]
