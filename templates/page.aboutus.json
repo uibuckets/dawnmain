@@ -214,6 +214,7 @@
         "4fca2763-b9e1-486c-b4e0-aa80ec02a59f": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/business-woman-in-city.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -223,6 +224,7 @@
         "80a9c1e2-5d9b-46dc-8494-43b8ea724144": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/overalls-fashion-for-women-on-model.jpg",
             "title": "",
             "text": "",
             "link_label": "",
