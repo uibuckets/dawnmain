@@ -113,7 +113,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/2_75cc7448-7d07-4d2e-9337-4ceed37e8975.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -242,7 +242,7 @@
       ],
       "settings": {
         "title": "Follow Us On Instagram",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 6,
