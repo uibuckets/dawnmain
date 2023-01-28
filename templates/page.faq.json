@@ -11,6 +11,8 @@
     "911fb9a6-7fc6-4837-85d3-6fa1661ad91f": {
       "type": "dynamic-image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1_167ef0ed-296e-4ca5-a02f-1d66988e8d77.png",
+        "image_mobile": "shopify:\/\/shop_images\/1_f8847c56-df4c-457d-b28e-3abde8dbdccb.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
