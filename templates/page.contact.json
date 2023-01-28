@@ -35,6 +35,8 @@
         "template--17550436139329__217eb72c-a3e1-4cb9-baea-e4d5f7f5c26f-167371409035657449-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/2_db47eae6-eed5-43ae-bdfb-9c8187d76b60.png",
+        "image_mobile": "shopify:\/\/shop_images\/2_83d3f01a-88fd-49f6-88bc-a254bd49f19b.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
