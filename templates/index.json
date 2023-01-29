@@ -6,8 +6,6 @@
         "template--16667746468115__25397dfa-97a5-4ba8-b5eb-adcf9db95822-166611517288b80b77-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.png",
-            "image_mobile": "shopify:\/\/shop_images\/1_66e724ae-d856-4624-a97a-23bf1232e458.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -45,7 +43,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>protecting<\/p>",
             "heading_size": "h1"
           }
         },
@@ -149,7 +147,6 @@
         "template--17550435811649__56eb9904-506e-44b1-8da4-5684b862e609-167345676368559cf2-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/medal.png",
             "title": "Exceptional quality",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -159,7 +156,6 @@
         "template--17550435811649__56eb9904-506e-44b1-8da4-5684b862e609-167345676368559cf2-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping.png",
             "title": "Ethically made",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -169,7 +165,6 @@
         "template--17550435811649__56eb9904-506e-44b1-8da4-5684b862e609-167345676368559cf2-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/delivery.png",
             "title": "Free shipping & returns",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -179,7 +174,6 @@
         "b3076aaa-8d86-48f1-8dd7-82a5767bcb91": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/made-in-usa_1.png",
             "title": "Made in USA",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -272,8 +266,6 @@
         "template--17550435811649__dded711a-ba2d-4f5e-8419-9bf80259b5b6-1673626349b1f89937-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_a00a3f9c-ff59-4ba3-96f1-16a6a210f703.png",
-        "image_mobile": "shopify:\/\/shop_images\/2_7292c2ee-d177-4928-919a-31faae322c88.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": true,
@@ -337,7 +329,6 @@
         "template--17612637012267__72306bdc-df21-448a-9822-537761b9e5c7-1674330758ffac9de3-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -356,7 +347,6 @@
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_052e1e28-22b8-42b6-964f-f7ebc0484cff.png",
             "title": "Jade Jewel",
             "text": "<p>★★★★★<br\/>I recently ordered a \"Jade Jewel\" plant for my office and it has been a great addition to my space.<br\/>Sarah<\/p>",
             "link_label": "",
@@ -366,7 +356,6 @@
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c197348a-6f2c-47fa-bb9a-bc384ce02c6e.png",
             "title": "Highly recommend",
             "text": "<p>★★★★★<br\/>I purchased a \"Golden Goddess\" pothos plant for my bedroom and it has been a great addition to my room. <\/p><p>Rachel G.<\/p>",
             "link_label": "",
@@ -376,7 +365,6 @@
         "template--17550435811649__a8727859-6126-4ab0-9a71-d3c5ef8d4117-167345676368559cf2-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.png",
             "title": "Modern minimalist",
             "text": "<p>★★★★★<br\/>I purchased a \"Tropical Temptation\" bird of paradise plant for my kitchen and it has been a great addition to my space<\/p><p>Livua H<\/p>",
             "link_label": "",
@@ -386,7 +374,6 @@
         "59169737-ff52-425c-b47f-bd244272ff5e": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1d338949-df75-4581-a3f8-3c71cbdb30fe.png",
             "title": "Customer service",
             "text": "<p>★★★★★<br\/>The quality and customer service exceeded my expectations. I will definitely be shopping there again in the future<\/p><p>Lucy T.<\/p>",
             "link_label": "",
@@ -440,7 +427,6 @@
         "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/open-plan-kitchen-with-wooden-fixtures.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -450,7 +436,6 @@
         "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_c197348a-6f2c-47fa-bb9a-bc384ce02c6e.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -460,7 +445,6 @@
         "template--17612637012267__9e24cd22-9388-4a9a-9012-a169be03cfb5-16743810583223420b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -470,7 +454,6 @@
         "23b95b33-0abf-48ee-8ee6-20abe83143ca": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1d338949-df75-4581-a3f8-3c71cbdb30fe.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -480,7 +463,6 @@
         "0d267ff6-2bf9-472d-8310-4a11877b5d30": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/laptop-on-a-the-white-desk-of-a-home-office.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -490,7 +472,6 @@
         "2f30e4a9-5b57-4b19-a694-e397cbd48b5b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/yellow-sofa-with-throw-pillows.jpg",
             "title": "",
             "text": "",
             "link_label": "",
