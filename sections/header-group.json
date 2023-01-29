@@ -26,7 +26,7 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-2",
-        "logo_position": "top-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "show_social": false,
         "menu_type_desktop": "dropdown",
