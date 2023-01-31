@@ -2610,7 +2610,7 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
-    font-family: var(--font-heading-family);
+    font-family: var(--font-body-family);
 
 }
 
