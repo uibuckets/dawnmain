@@ -205,6 +205,60 @@
         "padding_bottom": 52
       }
     },
+    "688323aa-42a9-4bec-8347-fc8fd92bc8da": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17725126312214__688323aa-42a9-4bec-8347-fc8fd92bc8da-167700092800c7c3ea-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/frontpage"
+          }
+        },
+        "template--17725126312214__688323aa-42a9-4bec-8347-fc8fd92bc8da-167700092800c7c3ea-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17725126312214__688323aa-42a9-4bec-8347-fc8fd92bc8da-167700092800c7c3ea-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17725126312214__688323aa-42a9-4bec-8347-fc8fd92bc8da-167700092800c7c3ea-0",
+        "template--17725126312214__688323aa-42a9-4bec-8347-fc8fd92bc8da-167700092800c7c3ea-1",
+        "template--17725126312214__688323aa-42a9-4bec-8347-fc8fd92bc8da-167700092800c7c3ea-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -512,6 +566,7 @@
     "dcb7bc6b-fcc7-48ba-9855-96318d718d6d",
     "f62b8633-0292-4b97-8a1a-aa8bfebed4ff",
     "56eb9904-506e-44b1-8da4-5684b862e609",
+    "688323aa-42a9-4bec-8347-fc8fd92bc8da",
     "featured_collection",
     "dded711a-ba2d-4f5e-8419-9bf80259b5b6",
     "b93fa654-b32c-452f-92b7-88674dd6cf8b",
