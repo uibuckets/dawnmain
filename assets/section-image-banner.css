@@ -501,7 +501,20 @@
 }
 /* Gs - Banner Update - End */
 
+@media screen and (max-width: 749px) {
+  .banner:not(.slideshow) .rte a,
+  .banner:not(.slideshow) .inline-richtext a:hover,
+  .banner:not(.slideshow) .rte a:hover {
+    color: currentColor;
+  }
+}
 
+@media screen and (min-width: 750px) {
+  .banner--desktop-transparent .rte a,
+  .banner--desktop-transparent .inline-richtext a:hover,
+  .banner--desktop-transparent .rte a:hover {
+    color: currentColor;
+  }
 
 @media screen and (min-width: 750px) {
   
@@ -521,5 +534,4 @@
 .banner__media__auto img{
   position: absolute !important;
   height: 100% !important;
-}
 }

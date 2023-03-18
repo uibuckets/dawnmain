@@ -65,7 +65,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "Talk about your brand",
             "heading_size": "h1"
           }
         },

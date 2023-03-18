@@ -1,27 +1,37 @@
-Dawn 7.0.0 introduces several fixes and enhancements to make the themes even more flexible and easy to use. We now offer additional customization options in the header to change the position of your logo, new ways of displaying your product page and featured product images, and a new complementary product block to help boost sales.
+Dawn 8.0.0 provides more customizability options to the header & footer, add a new multi-row section for product images and text, and improve the display of product images and logos. The platform has also centralized the logo settings, improved search, added social media logos and language and currency picker by default, and fixed several bugs with product pages and customer orders.
 
 ### Added
-- The announcement bar section has a new setting that lets you set the text alignment.
-- The header is now more flexible. We added a new logo position option called “Middle center” to feature your logo in the center and your navigation menu on the left, on larger screens.
-- The product information section has a new layout option that allows you to split your product images into a two-column grid.
-- The product information section has a new block that allows you to display complementary products.
-- The product information and featured product sections now allow desktop media to be displayed on the left or on the right on larger screens.
-- We added pagination to the main collection list.
-- We introduced the ability to add and reorder sections, including app sections, to the customer account pages.
+- Important: Product images on the Product Page, Featured Product Section, and Quick Buy Modal will now be adjusted by default to fit within the screen's height. You can still turn this off if you’d like your images to be bigger.
+- We built a new mechanism to add sections & apps to your site's header & footer area directly from the online store editor.
+- We added a "Multi-row" section that lets you create a repeatable pattern of images and text. It also connects to metaobjects in the admin for a supercharged workflow.
+- We added a new setting that will constrain the height of product images on the Product Page and Featured Product Section. You'll now have the option to display product images in their original aspect ratio or crop them to fill the allotted space.
+- The product page now displays quantity rules tied to a product variant (minimum, maximum, increments) when they apply. The product page also indicates if a buyer already has quantity for an item in their cart.
+- We added an option for buyers to Follow your store on the Shop App.
+- We added a new block to display icons with text to the product information section.
+- We added an option to disable zoom on product images.
+- We added an Inventory and SKU block to the product information section
+- We added a new "Brand Information" block to the footer that allows you to share a small blurb about your brand and display social links.
+- We added a "Medium" height option to the Image with Text section.
+- We added more width options and resized the default width of the product image on the Featured Product section.
+- We added an option to automatically reduce the size of your Logo with a Sticky header when you scroll down the page.
+- We added a checkbox to show policy links on your site's footer.
 
 ### Changed
-- Important: We introduced new theme settings to style “product cards”, “blog cards” and “collection cards” separately. Prior to this update, all these components were styled with the cards’ theme settings. If you have previously updated the style of your cards, this update may cause visual changes to your product cards, blog cards, or collection cards. This can be modified by adjusting their styling in theme settings.
-- We introduced a new setting on the collage section to let you apply product card styling to all card types featured in the section.
+- Important: We changed the default height of the Image Banner from “Adapt to image size” to “medium” to better display larger images on screens. This will result in a slight visual change for themes who previously had this setting enabled. If you would like to revert the change, select “Adapt to first image” option in the “Banner height” setting.
+- We centralized the logo settings from the Header & Password sections to the Global Settings.
+- We changed the default height of the Slideshow Section to "Medium" instead of "Adapt to Image".
+- We improved the search by displaying more results.
+- We now enable language and currency picker by default in the footer so it will automatically display if your shop has multiple currencies and/or languages.
+- We show social media logos by default so they are automatically displayed if populated in your settings.
 
 ### Fixes and improvements
-- We fixed the setting that displays the product’s vendor name on the cart pop up notification.
-- We fixed an issue where the search dropdown window wasn’t matching the width of the search input field on smaller screens.
-- We fixed an issue where the quick add buttons would still display when JavaScript was disabled.
-- We fixed an issue where the login link wouldn’t display properly in the menu drawer on Android.
-- We fixed video controls not being clickable on the featured product section.
-- We fixed an issue with the cart notification overlapping the rest of the content on Safari v15.6.
-- We added max width to iFrames placed in the product description so the content doesn’t overflow.
-- We fixed the slider padding being different on Safari from the rest of the browsers.
-- We fixed an issue where manually inputting a quantity in the cart drawer could remove the item in question.
-- We fixed a bug to allow the removal of filters.
-- We fixed focus rings for Windows High Contrast mode.
+- We now show which variants are sold out or unavailable with better visual cues.
+- We improved the Complementary Product Cards on the Product page by making the cards more compact.
+- We streamlined the appearance of the Thumbnails product images by making them all the same size.
+- We made some improvements to Search: We added a clear button to the search input, we sync the search terms between the main search page and search bar in the header, and we automatically scroll to the top of the page when searching from mobile.
+- We fixed a bug where bullet points were not aligning properly in some sections.
+- We fixed a bug with how colour gradients were displayed in the Header section.
+- We fixed a bug on the customer pages, so that order totals now display refunds.
+
+### Removed
+- We removed the “Use Original Aspect Ratio” setting in the collage section.
